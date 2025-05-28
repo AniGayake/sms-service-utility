@@ -1,4 +1,4 @@
-package com.banking.app.sms.utility.config;
+package com.elvra.app.sms.utility.config;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;

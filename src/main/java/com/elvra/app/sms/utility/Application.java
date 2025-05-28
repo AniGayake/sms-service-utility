@@ -1,4 +1,4 @@
-package com.banking.app.sms.utility;
+package com.elvra.app.sms.utility;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

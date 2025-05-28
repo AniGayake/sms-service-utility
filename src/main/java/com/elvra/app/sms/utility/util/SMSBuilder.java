@@ -1,8 +1,6 @@
-package com.banking.app.sms.utility.util;
+package com.elvra.app.sms.utility.util;
 
-import com.twilio.Twilio;
 import com.twilio.rest.api.v2010.account.Message;
-import com.twilio.type.PhoneNumber;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

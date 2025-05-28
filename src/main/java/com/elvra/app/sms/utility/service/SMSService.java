@@ -1,7 +1,6 @@
-package com.banking.app.sms.utility.service;
+package com.elvra.app.sms.utility.service;
 
-import com.banking.app.sms.utility.constants.SMSServiceConstants;
-import com.banking.app.sms.utility.util.SMSBuilder;
+import com.elvra.app.sms.utility.util.SMSBuilder;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -11,7 +10,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
-import static com.banking.app.sms.utility.constants.SMSServiceConstants.CUSTOMER_ONBOARDING_TOPIC;
+import static com.elvra.app.sms.utility.constants.SMSServiceConstants.CUSTOMER_ONBOARDING_TOPIC;
 @Service
 public class SMSService {
     private static final Logger LOGGER = LoggerFactory.getLogger(SMSService.class);
